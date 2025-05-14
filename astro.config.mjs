@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   site: "https://aloussase.github.io",
-  base: "bitacora",
+  base: "/bitacora",
   integrations: [
     starlight({
       title: "Bitácora de Actividades",
