@@ -7,7 +7,7 @@ sidebar:
 
 ## Avances
 
-- kkck
+- Me di cuenta que tener varios traces duplicados por efecto de realizar la misma acción varias veces no aporta valor a la data recolectada. Es mejor ejercitar las aplicaciones manualmente tal como un usuario las utilizaría.
 
 ## Video Presentación
 
