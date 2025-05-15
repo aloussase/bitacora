@@ -5,4 +5,10 @@ sidebar:
   label: Semana 1
 ---
 
-No hay nada aquí aún.
+## Avances
+
+- kkck
+
+## Video Presentación
+
+## Screenshot Ficha Proyecto
