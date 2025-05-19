@@ -7,8 +7,40 @@ sidebar:
 
 ## Avances
 
-- Me di cuenta que tener varios traces duplicados por efecto de realizar la misma acción varias veces no aporta valor a la data recolectada. Es mejor ejercitar las aplicaciones manualmente tal como un usuario las utilizaría.
+- Se instrumentó la aplicación [microservices-demo](https://github.com/Tracing-Performance-Labs/microservices-demo) con OTEL.
+- Se instrumentó la aplicación [QuickPizza](https://github.com/Tracing-Performance-Labs/quickpizza) con OTEL.
+- Se recolectaron trazas de ambas aplicaciones haciendo pruebas manuales.
+- Se empezó el *refactoring* de la [pipeline de ingestión](https://github.com/Tracing-Performance-Labs/dedup-analysis-pipeline) para tener en cuenta más metadata acerca de las fuentes.
+- Se esquematizaron las dos propuesta de solución planteadas:
+
+<iframe
+    width="100%"
+    style="height: 300px;"
+    src="https://drive.google.com/file/d/1qNxI5ic4xKSOMoN07cO_iklRwOtM3sOI/preview"
+></iframe>
+
+## Acciones Futuras
+
+Se planea terminar el *refactoring* de la pipeline de ingestión y en paralelo comenzar la implementación de las soluciones planteadas.
 
 ## Video Presentación
 
-## Screenshot Ficha Proyecto
+<iframe
+    src="https://drive.google.com/file/d/1rc-jFsBndm-irXQDH4_0mBf-iICJORm3/preview"
+    title="Video Presentación"
+    width="100%"
+    style="height: 400px;"
+>
+    Descarga el video desde [aquí](https://drive.google.com/file/d/1rc-jFsBndm-irXQDH4_0mBf-iICJORm3/view).
+</iframe>
+
+## Ficha Proyecto
+
+<iframe
+    src="https://docs.google.com/spreadsheets/d/12Hfe9GmooH8n4HhY752UuWGyy4aceoNC/preview"
+    width="100%"
+    style="height: 400px;"
+></iframe>
+
+Enlace en la carpeta de Google Drive: [link](https://docs.google.com/spreadsheets/d/12Hfe9GmooH8n4HhY752UuWGyy4aceoNC/edit).
+
