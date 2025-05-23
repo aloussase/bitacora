@@ -26,12 +26,12 @@ Se planea terminar el *refactoring* de la pipeline de ingestión y en paralelo c
 ## Video Presentación
 
 <iframe
-    src="https://drive.google.com/file/d/1rc-jFsBndm-irXQDH4_0mBf-iICJORm3/preview"
+    src="https://drive.google.com/file/d/1nGFhZGJU3y388LmLyuPzI45nahnVVqqL/preview"
     title="Video Presentación"
     width="100%"
     style="height: 400px;"
 >
-    Descarga el video desde [aquí](https://drive.google.com/file/d/1rc-jFsBndm-irXQDH4_0mBf-iICJORm3/view).
+    Descarga el video desde [aquí](https://drive.google.com/file/d/1nGFhZGJU3y388LmLyuPzI45nahnVVqqL/view).
 </iframe>
 
 ## Ficha Proyecto
