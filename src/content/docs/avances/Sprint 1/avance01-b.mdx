@@ -11,11 +11,19 @@ sidebar:
 - Se crearon diagramas de arquitectura de la solución a ser implementada
 - Se validó la arquitectura con el cliente
 - Se comenzó la implementación de la solución, se crearon los siguientes artefactos nuevos:
-  - Librería para realizar deduplicación de objetos: https://github.com/Tracing-Performance-Labs/go-dedupe
-
-{/*  TODO: Incluir diagrama UML de la solucion. */}
+  - Librería para realizar deduplicación de objetos:
+    https://github.com/Tracing-Performance-Labs/go-dedupe. Esta es una librería
+    para el lenguaje de programación Go que permite deduplicar objetos y es
+    altamente configurable. Este artefacto ya constituye un producto útil para
+    la comunidad.
+- Se envió el borrador del capítulo 1 al tutor del proyecto, pero no se ha recibido la retroalimentación
 
 ## Actividades próximas
+
+- Terminar la implementación de un procesador de OpenTelemetry que realice la deduplicación utilizando la librearía creada
+- Crear un colector customizado que utilice el procesador de deduplicación
+- Instrumentar las aplicaciones de pruebas con el colector customizado
+- Comparar el rendimiento de las aplicaciones con el colector customizado y con el colector por defecto
 
 ## Cronograma de actividades
 
@@ -31,4 +39,13 @@ Si no puede visualizar el tablero, por favor, pida acceso con su correo electró
 
 ## Modelos de diseño
 
-{/* bases de datos, casos de uso, diagramas UML de eventos/actividades, y prototipos en papel y en FIGMA */}
+### Diseño de alto nivel de la solución
+
+<iframe
+    src="https://drive.google.com/file/d/1RkZILxd3ZjQnMa1qX6lq3lbplhL0fVOL/preview"
+    width="100%"
+    style="height: 400px;"
+    allowfullscreen
+    loading="lazy"
+    title="Modelo de diseño"
+></iframe>
