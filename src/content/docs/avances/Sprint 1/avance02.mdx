@@ -1,0 +1,58 @@
+---
+title: Avance 2 - Sprint 1
+description: Registro de avances de las actividades correspondientes a la Materia Integradora de ESPOL - PAO I 2025
+sidebar:
+  label: Avance 2
+---
+
+## Actividades realizadas
+
+- Refinamiento de la librería de deduplicación
+- Implementación de procesador de OpenTelemetry
+- Implementación de colector customizado de OpenTelemetry
+- Instrumentación de la aplicación quickpizza con el colector customizado
+- Reunión de validación con el cliente
+
+Se crearon los siguientes artefactos:
+
+- Procesador de deduplicación: https://github.com/Tracing-Performance-Labs/dedupeprocessor
+- Colector customizado: https://github.com/Tracing-Performance-Labs/custom-otel-collector
+
+## Actividades futuras
+
+- Implementación de codificación de trazas usando [Murmur](https://en.wikipedia.org/wiki/MurmurHash)
+- Creación de recursos en AWS para ejecución de pruebas de rendimiento del colector
+- Ejecución y análisis de pruebas de rendimiento del colector customizado
+
+## Cronograma de trabajo
+
+import { Aside } from '@astrojs/starlight/components';
+
+Enlace al tablero Kanban: [link](https://espoldist.atlassian.net/jira/software/projects/SCRUM/boards/1).
+
+<Aside type="tip">
+
+Si no puede visualizar el tablero, por favor, pida acceso con su correo electrónico.
+
+</Aside>
+
+## Modelos desarrollados
+
+### Casos de Uso
+![Casos de Uso](../../../../assets/otelCollectorCustom-casosUso.drawio.png)
+
+### Pipeline de deduplicación
+![Pipeline de deduplicacion](../../../../assets/otelCollectorCustom-dedupePipeline.drawio.png)
+
+### Librería de deduplicación
+![Libreria de deduplicacion](../../../../assets/otelCollectorCustom-go-dedupe.drawio.png)
+
+### Procesador de deduplicación
+![Procesador](../../../../assets/otelCollectorCustom-dedupeprocessor.drawio.png)
+
+### Colector customizado
+![Colector customizado](../../../../assets/otelCollectorCustom-tracesSequenceDiagram.drawio.png)
+
+## Avance del Capítulo 2
+
+Enlace al documento: [link](https://typst.app/project/r4ZV4qsFn8WHPgpNHdk5ry).
