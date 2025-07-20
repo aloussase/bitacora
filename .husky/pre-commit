@@ -1,0 +1,2 @@
+prettier -w  src/content/docs/avances/**/*.{md,mdx}
+git update-index --again

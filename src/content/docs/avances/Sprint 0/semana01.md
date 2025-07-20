@@ -10,7 +10,7 @@ sidebar:
 - Se instrumentó la aplicación [microservices-demo](https://github.com/Tracing-Performance-Labs/microservices-demo) con OTEL.
 - Se instrumentó la aplicación [QuickPizza](https://github.com/Tracing-Performance-Labs/quickpizza) con OTEL.
 - Se recolectaron trazas de ambas aplicaciones haciendo pruebas manuales.
-- Se empezó el *refactoring* de la [pipeline de ingestión](https://github.com/Tracing-Performance-Labs/dedup-analysis-pipeline) para tener en cuenta más metadata acerca de las fuentes.
+- Se empezó el _refactoring_ de la [pipeline de ingestión](https://github.com/Tracing-Performance-Labs/dedup-analysis-pipeline) para tener en cuenta más metadata acerca de las fuentes.
 - Se esquematizaron las dos propuesta de solución planteadas:
 
 <iframe
@@ -21,7 +21,7 @@ sidebar:
 
 ## Acciones Futuras
 
-Se planea terminar el *refactoring* de la pipeline de ingestión y en paralelo comenzar la implementación de las soluciones planteadas.
+Se planea terminar el _refactoring_ de la pipeline de ingestión y en paralelo comenzar la implementación de las soluciones planteadas.
 
 ## Video Presentación
 
@@ -43,4 +43,3 @@ Se planea terminar el *refactoring* de la pipeline de ingestión y en paralelo c
 ></iframe>
 
 Enlace en la carpeta de Google Drive: [link](https://docs.google.com/spreadsheets/d/12Hfe9GmooH8n4HhY752UuWGyy4aceoNC/edit).
-
