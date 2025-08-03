@@ -1,0 +1,55 @@
+---
+title: Avance 5 - Sprint 2
+description: Registro de avances de las actividades correspondientes a la Materia Integradora de ESPOL - PAO I 2025
+sidebar:
+  label: Avance 5
+---
+
+## Video sobre historias de usuario
+
+<iframe
+  src="https://drive.google.com/file/d/1BmhAeUAMQq2Is8shZTj8e1S3-4VvPm1j/preview"
+  title="Historias de Usuario"
+  width="100%"
+  style="height: 400px;"
+>
+  Descarga el video desde
+  [aquí](https://drive.google.com/file/d/1BmhAeUAMQq2Is8shZTj8e1S3-4VvPm1j/view?usp=drive_link).
+</iframe>
+
+## Plan para terminar tareas pendientes
+
+En primer lugar, se va a socializar con el cliente si intentar terminar con las
+historias de usuario e implementar el proxy de deduplicación, o si continuar
+haciendo pruebas de rendimiento con otras aplicaciones para tener resultados
+más conclusivos acerca de las características del sistema desarrollado.
+
+En el primer caso, se desarrollará un nuevo componente de OpenTelemetry, un
+_receiver_, y se lo acoplará al colector customizado para lograr recuperar las
+trazas deduplicadas antes de enviarlas a un determinado backend configurado, por
+ejemplo, Grafana.
+
+En el segundo caso, se instrumentará una o unas aplicaciones, en virtud del
+tiempo, y se procederá a realizar pruebas de rendimiento de forma similar a
+como se lo hizo con la aplicación QuickPizza. Esto permitirá evaluar el
+comportamiento del sistema desarrollado de forma más general y permitirá tener
+resultados más contundentes.
+
+Sea cual fuere el camino a tomar, es posible completar el desarrollo en 2
+semanas.
+
+## Cronograma de trabajo
+
+import { Aside } from "@astrojs/starlight/components";
+
+Enlace al tablero Kanban: [link](https://espoldist.atlassian.net/jira/software/projects/SCRUM/boards/1).
+
+<Aside type="tip">
+
+Si no puede visualizar el tablero, por favor, pida acceso con su correo electrónico.
+
+</Aside>
+
+## Documento del proyecto
+
+Enlace al documento: [link](https://typst.app/project/r4ZV4qsFn8WHPgpNHdk5ry).
